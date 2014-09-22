@@ -11,3 +11,6 @@ highlight ColorColumn ctermbg=7
 " Higlight search results
 set hlsearch
 
+" Toggle highlight search with <Ctrl>-L
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+
